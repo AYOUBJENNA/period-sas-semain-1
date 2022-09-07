@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+char nom[20],prenom[20];
+int age;
+char sex[20];
+int numer_telephone;
+printf("veuiller entre votre nom :");
+scanf("%s",&nom);
+printf("veuiller entre votre prenom :");
+scanf("%s",&prenom);
+printf("entre votre age");
+scanf("%d",&age);
+printf("entre votre numbre telephone");
+scanf("%d",&numer_telephone);
+printf("entre votre sex");
+scanf("%s",&sex);
+
+printf("votre nom :%s\n",nom);
+printf("votre prenom :%s\n",prenom);
+printf("votre age :%d\n",age);
+printf("votre sex:%s\n",sex);
+printf("votre numer_telephone :%d\n",numer_telephone);
+
+
+	return 0;
+}

@@ -1,0 +1,12 @@
+#include <stdlib.h>
+#include <stdio.h>
+int main() {
+ float mile;
+ int metre ;
+ 
+ printf("ente le nombre en metre ");
+ scanf("%d",&metre);
+  mile = (metre*1.609)/1000;
+  printf("la formule %.2f",mile);
+    return 0;
+}

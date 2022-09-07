@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main() {
+
+int a,b;
+char choix;
+ printf("entre le valeur de a");
+ scanf("%d",&a);
+ 
+ printf("entre le valeur de b");
+ scanf("%d",&b);
+  printf("entre votre choix");
+  scanf(" %c",&choix);
+ 
+ switch (choix) {
+  case ('+') :
+    printf("%d + %d = %d",a,b,a+b);
+    break;
+  case ('-') :
+    printf("%d -%d = %d",a,b,a-b);
+    break;
+  case ('*'):
+    printf("%d * %d =%d",a,b,a*b);
+    break;
+  case ('/'):
+    printf("%d / %d = %d",a,b,a/b);
+    break;
+  case ('%'):
+    printf("%d % %d = %d",a,b,a%b);
+    break;
+}
+
+	return 0;
+}

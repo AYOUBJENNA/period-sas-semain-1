@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+	 float longeur,largeur;
+ float f;
+ printf("entre la valeur de longeur");
+ scanf("%f",&longeur);
+ printf("entre la valeur de largeur");
+ scanf("%f",&largeur); 
+ f = 2*(longeur + largeur);
+ printf(" la circonférence d'un rectangle %f",f);
+	return 0;
+}

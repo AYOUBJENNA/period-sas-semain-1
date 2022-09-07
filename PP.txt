@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+ int a,b,c;
+ int somme;
+ float moyenne;
+ printf("entre le valeur de a");
+ scanf("%d",&a);
+ 
+printf("entre le valeur de b");
+ scanf("%d",&b);	
+printf("entre le valeur de c");
+ scanf("%d",&c);	
+ somme = (a+b+c);
+ printf("somme est %d\n",somme);
+  moyenne = somme/3;
+  printf("la moyenne est %.2f\n",moyenne);
+	
+	return 0;
+}

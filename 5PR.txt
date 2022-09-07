@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+
+int f;
+float c;
+printf("entre le nombre de f en fahrenheit");
+scanf("%d",&f);	
+ c=(f-32)/1.8;	
+ printf("degre celuis est %f",c);
+	
+	
+	
+	return 0;
+}

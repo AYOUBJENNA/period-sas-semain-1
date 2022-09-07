@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main() {
+ float km ;
+ int mile ;
+ 
+ printf("ente le nombre de mile ");
+ scanf("%d",&mile);
+   km = mile/1.609;
+  printf("la formule %.2f",km);
+ 
+	
+	return 0;
+}
